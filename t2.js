@@ -21,8 +21,6 @@ function fadeIn(){
 };
 
 
-
-document.querySelector(".content").onclick=()=>{
     document.querySelector("#heart").hidden=false
     document.querySelector("body").style.backgroundColor="#ff1664"
     document.querySelector("#heart").hidden=false
@@ -30,4 +28,3 @@ document.querySelector(".content").onclick=()=>{
     var video = document.getElementById("myVideo");
     video.play();
     fadeIn()
-}
